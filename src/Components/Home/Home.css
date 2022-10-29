@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
+
+
+
+.caraousel-img{
+    height: 75vh;
+
+}
+
+.heading-div{
+    margin: 85px;
+}
+
+.Home-h1{
+    font-family: 'Dancing Script';
+    color: rgb(204, 36, 92);
+}

@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Changa:wght@600&display=swap');
+
+.header{
+    position: fixed;
+    top:0;
+    background-color:white;
+    height: 12vh;
+    width:100%;
+    font-size: 3vh;
+    /* z-index: 100; */
+}
+
+.nav-font{
+    font-family:'Changa';
+    font-weight: bolder;
+    text-decoration: none;
+    color: rgb(99, 222, 32);
+    font-size: 25px;
+}
+
+.item-collapse{
+    overflow: visible;
+    background-color: white;
+    padding: 14px;
+}
+
+
+.header-logo{
+    height:8vh;
+     width:8vw;
+     /* display: block; */
+     position: absolute;
+     top: 15px;
+     left: 38px;
+     right: 0;
+     bottom: 0px;
+     margin: 0 auto;
+      /* z-index: 50 */
+}
+
+.logout-button{
+    color: white;
+    text-decoration: none;
+}
+
+.logout-button:hover {
+    color:#07080a;
+    transition: 0.2s;
+}

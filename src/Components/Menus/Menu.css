@@ -1,0 +1,28 @@
+.item-wrapper{
+    /* position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center; */
+    display: grid;
+    grid-gap: 80px 15px;
+    grid-template-rows: auto auto auto;
+    grid-template-columns: auto auto auto;
+     /* grid-template-columns: repeat(auto-fit,minmax(300px,1fr));  */
+    
+}
+
+.card-wrapper
+{
+    margin:100px 300px;
+
+}
+
+/* @media only screen and (max-device-width: 480px) {
+   .item-wrapper{
+    margin: 100px 100px;
+    grid-template-columns:repeat(1,1fr);
+   }
+} */
+
+

@@ -1,0 +1,75 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+    
+    
+  }
+
+.vh-100{
+    background-image: url(../Images/RegisterBackground.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-attachment: fixed; */
+    width: 100%;
+    background-position: center center;
+}
+
+.h-custom {
+    height: calc(100% - 12vh);
+    display: block;
+    }
+
+.header-font{
+   font-family: 'Lobster';
+   /* font-weight: bolder; */
+   color: rgb(15, 12, 12);
+   text-shadow:2px 2px rgb(240, 147, 54);
+}
+
+.form-input{
+    width: 300px;
+    height: 35px;
+    border: 2px solid #e0ee11;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+  .top-right {
+    position: absolute;
+    top: 5rem;
+    right: 15rem;
+    
+  }
+
+  .register-button{
+    margin-top: 20px;
+    width: 90px;
+    height: 40px;
+    border-color: peru ;
+    border-radius: 5px ;
+    background-color: peru;
+    color: aliceblue;
+    box-shadow: 5px 10px 8px #888888;
+  }
+
+  .error-wrapper{
+    font-weight: bolder;
+    color: rgb(239, 13, 13);
+    margin: 10px;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .top-right{
+        top:10rem;
+        right: 20px;
+        }
+   }
+

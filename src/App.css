@@ -1,3 +1,9 @@
+body{
+  background: url(https://www.xmple.com/wallpaper/linear-brown-yellow-gradient-1920x1080-c2-f4a460-ffffe0-a-45-f-14.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .App {
   text-align: center;
 }
@@ -36,3 +42,4 @@
     transform: rotate(360deg);
   }
 }
+
